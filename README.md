@@ -93,13 +93,7 @@ Rows with NaT delivered_at: 2 rows
 0 * * * * /usr/bin/python3 /path/run_pipeline.py >> /var/log/etl.log 2>&1
 ```
 
-### Example Airflow DAG (optional)
-
-A template DAG is included in the project.
-
----
-
-## 📊 Dashboard (Superset / Metabase)
+## 📊 Dashboard (Metabase)
 
 A BI layer is provided for:
 - On-time delivery rate  
@@ -117,7 +111,7 @@ docker compose up -d
 Access at:
 
 ```
-http://localhost:8088
+http://localhost:3000
 ```
 
 ---
