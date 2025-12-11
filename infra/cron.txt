@@ -1,0 +1,2 @@
+# Example crontab entry to run the ETL every hour
+0 * * * * /usr/bin/python3 /opt/logistic-data-pipeline/run_pipeline.py >> /var/log/logistic_etl.log 2>&1
