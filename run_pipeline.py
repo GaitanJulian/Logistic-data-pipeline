@@ -1,0 +1,1 @@
+from etl.generate_raw_data import generate\nfrom etl.transform import transform\nfrom etl.load import load\n\nif __name__ == '__main__':\n    raw = generate()\n    processed = transform(raw)\n    load(processed)\n
